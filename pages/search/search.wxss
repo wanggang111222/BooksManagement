@@ -1,0 +1,43 @@
+@import '/style/weui.wxss';
+.page__bd{
+    margin-top: 20;
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+.searchblock{
+    background-color: #F4CB22;
+    height: 50px;
+    width:160px;
+    float: left;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: white;
+}
+.searchbox{
+     margin-top: 10px;
+     margin-left: 28px;
+}
+.author,.book_number {
+  color: #aaa;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.myuser {
+  color: #000;
+}
+
+image{
+  margin-right: 8px;
+  vertical-align: middle;
+  width:60px; 
+  height: 60px;
+}

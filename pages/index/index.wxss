@@ -1,0 +1,39 @@
+/**index.wxss**/
+.img
+{
+  padding-top: 5px;
+}
+.swiper
+{
+  height: 137px;
+  width:100%;
+}
+.swiper image {
+ height: 100%;
+ width: 100%;
+}
+
+.title2_box
+{
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: #70B3E9;
+  height: 95px;
+  width: 46%; 
+  float: left;
+  border-radius: 5px;
+}
+.icon
+{
+  margin:5% 34%;
+  height: 50px;
+  width: 56px;
+}
+.tip
+{
+  margin-top: -5px;
+  float: left;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}

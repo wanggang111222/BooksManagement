@@ -1,0 +1,7 @@
+<view class="page_all">
+  <block wx:for="{{datalist1}}">
+    <view class="collection" bindtap="look">
+        <image  class="img" src="{{item.image}}"></image>
+    </view>
+   </block>
+</view>

@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/search/detail/detail",
+    "pages/bookshelf/bookshelf",
+    "pages/mymessage/mymessage",
+    "pages/order/order"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#92A3BA",
+    "navigationBarTitleText": "石家庄铁道大学移动图书馆",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "white",
+    "backgroundColor": "#92A3BA",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "images/home_64.png",
+      "selectedIconPath": "images/home_64_btn.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "馆藏查询",
+      "iconPath": "images/magnifier_64.png",
+      "selectedIconPath": "images/magnifier_64_btn.png"
+    },
+     {
+      "pagePath": "pages/index/index",
+      "text": "图书导航",
+      "iconPath": "images/globe_64.png",
+      "selectedIconPath": "images/globe_64_btn.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "新闻",
+      "iconPath": "images/tray_64.png",
+      "selectedIconPath": "images/tray_64_btn.png"
+    }
+    ]
+  }
+}

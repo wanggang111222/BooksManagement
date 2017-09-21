@@ -1,0 +1,49 @@
+
+<!--index.wxml-->
+ <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+   <block wx:for="{{movies}}" wx:for-index="index">  
+    <swiper-item>  
+     <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+    </swiper-item>  
+   </block>  
+  </swiper>
+<view class="img">
+  <view class="title2_box" bindtap="toast1">
+    <image class="icon" src="/images/book.png"/>
+    <text class="tip" style="margin-left:35%; ">我的书架</text>
+  </view>
+  <view class="title2_box">
+    <image class="icon" src="/images/shopping.png"/>
+    <text class="tip" style="margin-left:30%;">我的借书车</text>
+  </view>
+</view>
+<view class="img">
+  <view class="title2_box" bindtap="scan">
+   <image class="icon" src="/images/QR_Code.png"/>
+   <text class="tip" style="margin-left:38%;">扫一扫</text>
+  </view>
+  <view class="title2_box">
+    <image class="icon" src="/images/history.png"/>
+    <text class="tip" style="margin-left:35%;">扫描历史</text>
+  </view>
+</view>
+<view class="img">
+  <view class="title2_box" bindtap="toast">
+    <image class="icon" src="/images/library.png"/>
+    <text class="tip" style="margin-left:42%;">推荐</text>
+  </view>
+  <view class="title2_box" bindtap="toast3">
+    <image class="icon" src="/images/booking.png"/>
+    <text class="tip" style="margin-left:35%;">图书预约</text>
+  </view>
+</view>
+<view class="img">
+  <view class="title2_box" bindtap="toast2">
+    <image class="icon" src="/images/information.png"/>
+    <text class="tip" style="margin-left:35%;">借阅信息</text>
+  </view>
+  <view class="title2_box">
+    <image class="icon" src="/images/message.png"/>
+    <text class="tip" style="margin-left:35%;">消息中心</text>
+  </view>
+</view>
